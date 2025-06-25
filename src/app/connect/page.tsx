@@ -29,6 +29,7 @@ const ConnectPage = () => {
           <Link
             href={"https://www.linkedin.com/in/k-kawakami/"}
             className="space-x-2"
+            target="_blank"
           >
             <Linkedin className="size-7 stroke-2 text-main-brand " />
             <span className=" text-2xl tracking-wider font-medium">
@@ -37,7 +38,11 @@ const ConnectPage = () => {
           </Link>
         </Button>
         <Button asChild variant={"ghost"} className="" size={"lg"}>
-          <Link href={"https://github.com/kkawakami08"} className="space-x-2">
+          <Link
+            href={"https://github.com/kkawakami08"}
+            className="space-x-2"
+            target="_blank"
+          >
             <Github className="size-7 stroke-2 text-main-brand " />
             <span className=" text-2xl tracking-wider font-medium">GitHub</span>
           </Link>

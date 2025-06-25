@@ -14,8 +14,10 @@ interface ProjectProps {
 const ProjectCard = ({ project }: ProjectProps) => {
   return (
     <div className="bg-main-brand h-full text-white p-5 rounded-lg space-y-5 flex flex-col justify-between">
-      <h4 className="text-2xl text-light-accent ">{project.title}</h4>
-      <div className="flex items-center gap-5 xl:gap-0 xl:justify-between">
+      <h4 className="text-2xl text-light-accent text-center ">
+        {project.title}
+      </h4>
+      <div className="flex items-center gap-5 justify-center ">
         {project.githubLink ? (
           <Button
             asChild
