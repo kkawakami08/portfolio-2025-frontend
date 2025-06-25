@@ -25,28 +25,31 @@ const Header = () => {
             </Link>
           </Button>
         </li>
-
-        <li className="md:hidden">
-          <Button
-            asChild
-            variant={"link"}
-            className={cn("text-dark-shade  tracking-wider ")}
-          >
-            <Link href={paths.resume()} target="_blank">
-              My Resume
-            </Link>
-          </Button>
-          <Button
-            asChild
-            variant={"link"}
-            className={cn(
-              "text-dark-shade  tracking-wider ",
-              pathname === paths.projects() && "  font-extrabold "
-            )}
-          >
-            <Link href={paths.projects()}>Projects</Link>
-          </Button>
-        </li>
+        <div className="md:hidden flex items-center">
+          <li>
+            <Button
+              asChild
+              variant={"link"}
+              className={cn("text-dark-shade  tracking-wider ")}
+            >
+              <Link href={paths.resume()} target="_blank">
+                My Resume
+              </Link>
+            </Button>
+          </li>
+          <li>
+            <Button
+              asChild
+              variant={"link"}
+              className={cn(
+                "text-dark-shade  tracking-wider ",
+                pathname === paths.projects() && "  font-extrabold "
+              )}
+            >
+              <Link href={paths.projects()}>Projects</Link>
+            </Button>
+          </li>
+        </div>
 
         <div className="flex items-center gap-3">
           <li className="hidden md:block">
