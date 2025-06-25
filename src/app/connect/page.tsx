@@ -5,7 +5,7 @@ import React from "react";
 
 const ConnectPage = () => {
   return (
-    <div className="px-5 py-30 flex-1 flex flex-col gap-15 sm:max-w-lg sm:mx-auto sm:text-center">
+    <div className="px-5 py-10 md:py-30 flex-1 flex flex-col gap-15 sm:max-w-lg sm:mx-auto sm:text-center">
       <div className="space-y-5">
         <h1 className="text-5xl lg:text-7xl">Let&apos;s Get in Touch!</h1>
         <p className="text-lg lg:text-xl">

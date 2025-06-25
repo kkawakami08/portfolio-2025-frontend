@@ -9,7 +9,7 @@ const HeroSection = () => {
     <div className="gap-8 md:gap-14 grid grid-cols-1 md:grid-cols-2  items-center md:max-w-4xl md:mx-auto">
       <div className="border border-main-brand rounded-full p-3 flex items-center justify-center w-fit ">
         <Image
-          src={"/ragnar.jpeg"}
+          src={"/kaori-profile.JPG"}
           alt="ragnar"
           width={720}
           height={960}
