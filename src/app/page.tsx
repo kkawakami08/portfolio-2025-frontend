@@ -1,12 +1,7 @@
 import HeroSection from "@/components/hero";
 import ProjectSection from "@/components/projects";
 import SkillSection from "@/components/skills";
-import { Metadata } from "next";
 import React from "react";
-
-export const metadata: Metadata = {
-  title: "Home",
-};
 
 const HomePage = () => {
   return (

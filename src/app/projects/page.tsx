@@ -1,12 +1,7 @@
 import ProjectCard from "@/components/projects/project-card";
 import { fetchProjects } from "@/lib/strapi";
 import { Project } from "@/types";
-import { Metadata } from "next";
 import React from "react";
-
-export const metadata: Metadata = {
-  title: "Projects",
-};
 
 const ProjectsPage = async () => {
   const projects: Project[] = await fetchProjects();
